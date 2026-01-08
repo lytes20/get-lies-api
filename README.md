@@ -1,0 +1,4 @@
+## Tech used
+
+- Node
+- Typescript
