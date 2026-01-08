@@ -1,0 +1,45 @@
+# Node dependencies
+node_modules/
+
+# Optional npm cache directory
+.npm/
+
+# Logs
+*.log
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log*
+
+# Dependency directories
+jspm_packages/
+
+# Output directories
+dist/
+build/
+out/
+
+# TypeScript compiled output
+*.tsbuildinfo
+
+# Optional coverage directory
+coverage/
+
+# Environment variables
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Optional lock files for reproducible installs
+yarn.lock
+pnpm-lock.yaml
