@@ -6,3 +6,4 @@ This is a JSON REST API that serves lies
 
 - Node
 - Typescript
+- Mongo DB
