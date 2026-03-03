@@ -1,6 +1,7 @@
 import { LieModel } from "../models/Lie";
+import { NextFunction, Request, Response } from "express";
 
-const getLies = async (req, res, next) => {
+export async function getLies(req: Request, res: Response, next: NextFunction) {
   try {
     const page = +req.query.page || 1;
     const results = await LieModel.find({ userId: req.user?._id })
@@ -10,8 +11,4 @@ const getLies = async (req, res, next) => {
   } catch (err) {
     next(err);
   }
-};
-
-export default {
-  getLies,
-};
+}

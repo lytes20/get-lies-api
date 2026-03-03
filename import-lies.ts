@@ -1,5 +1,5 @@
 import { connect } from "mongoose";
-import { LieModel } from "./models/Lie";
+import { LieModel } from "./src/models/Lie";
 import fs from "fs/promises";
 import path from "path";
 
